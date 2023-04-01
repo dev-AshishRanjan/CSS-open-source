@@ -27,7 +27,7 @@ int main()
   // main program
   display(arr,9);
   int target=5;
-  linearSearch(arr,9);
+  linearSearch(arr,9,target);
 
   return 0;
 }
