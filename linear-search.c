@@ -1,7 +1,12 @@
 #include <stdio.h>
-void display()
+void display(int arr[])
 {
   // display code goes here
+    printf("the array is: ");
+  for(int i=0; i<9; i++)
+  {
+    printf(" %d  ", arr[i]);
+  }
 
 }
 int linearSearch(int arr[], int key)
