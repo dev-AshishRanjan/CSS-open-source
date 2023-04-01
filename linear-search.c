@@ -1,7 +1,7 @@
 #include <stdio.h>
-void display()
-{
-  // display code goes here
+void display(int *arr, int size)
+{for(int i=0; i<size; i++ )
+  printf("%d\t", arr[i]);
 }
 int linearSearch()
 {
@@ -10,7 +10,7 @@ int linearSearch()
 int main()
 {
   int arr[] = {5, 3, 7, 9, 10, 12, 7, 2, 4};
-  // main program
+  display(arr, 9);
 
   return 0;
 }
