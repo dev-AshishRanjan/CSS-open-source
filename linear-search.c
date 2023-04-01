@@ -1,6 +1,7 @@
 #include <stdio.h>
-void display()
+void display(int a[], int n)
 {
+  printf("the array is %d",a);
   // display code goes here
 }
 int linearSearch()
@@ -11,6 +12,7 @@ int main()
 {
   int arr[] = {5, 3, 7, 9, 10, 12, 7, 2, 4};
   // main program
+  display(arr,9)
 
   return 0;
 }
