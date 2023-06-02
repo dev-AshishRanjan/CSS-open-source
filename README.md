@@ -25,3 +25,22 @@
 ---
 # **CSS-open-source**
 A demo Repo created for the purpose of *open-source description* for **CSS open Source Class**
+
+---
+
+<div align="center">
+ 
+# Project Admin
+<a href="https://github.com/dev-AshishRanjan">
+  <img src="https://avatars.githubusercontent.com/u/94990764?v=4" width="100px" alt=""/><br />
+  <sub><b>Kumar Ashish Ranjan</b></sub>
+</a>
+</div>
+
+---
+<div align="center">
+
+# Project Contributors
+[![contributors](https://contrib.rocks/image?repo=dev-AshishRanjan/CSS-open-source)](https://github.com/dev-AshishRanjan/CSS-open-source/graphs/contributors)
+</div>
+
