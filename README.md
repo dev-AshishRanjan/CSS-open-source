@@ -25,8 +25,8 @@
 ---
 
 <p align="center">
-  <img align="center" src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Welcome+to+CSS+Open+Source+!;Let's+Build+our+own+Together;Thanks+for+Contributing"/>
-<!--  <img src= 'https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2.5'/> -->
+  <img align="center" src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Welcome+to+CSS+Open+Source+!;Let's+Build+our+own+Together;Thanks+for+Contributing"
+ <img src= 'https://capsule-render.vercel.app/api?type=rect&color=gradient&height=2.5'/>
 </p>
 
 ---
