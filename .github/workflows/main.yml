@@ -1,2 +1,24 @@
-- name: Autometrics Report
-  uses: autometrics-dev/diff-metrics@v1.2.0
+name: Metrics report
+
+on: [pull_request]
+
+jobs:
+  build:
+
+    # The task only runs on linux x64 machines.
+    runs-on: ubuntu-latest
+
+    # Permissions are necessary to be able to edit and write comments on the PR
+    permissions:
+      issues: write
+      pull-requests: write
+      repository-projects: read
+      contents: read
+
+    steps:
+    - uses: actions/checkout@v3
+    - uses: autometrics-dev/diff-metrics@v1
+      with:
+        gh-token: ${{ secrets.GITHUB_TOKEN }}
+        rust-roots: |
+          .
