@@ -1,0 +1,2 @@
+- name: Autometrics Report
+  uses: autometrics-dev/diff-metrics@v1.2.0
