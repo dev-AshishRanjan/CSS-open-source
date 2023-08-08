@@ -1,8 +1,9 @@
 #include <stdio.h>
-void display(int ar[], int i)
+void display(int *arr, int size)
 {
-  for(int a=0;a<i;a++){
-    printf("%d",ar[a]);
+  for(int i=0;i<size;i++)
+  {
+    printf("%d ",arr[i]);
   }
   printf("\n");
 }
